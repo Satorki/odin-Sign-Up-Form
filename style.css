@@ -6,6 +6,10 @@
   font-family: "odin";
   src: url(Norse-Bold.otf);
 }
+@font-face {
+  font-family: "namad";
+  src: url(Namdhinggo-SemiBold.ttf);
+}
 body {
   margin: 0;
   padding: 0;
@@ -44,6 +48,7 @@ h1 {
   font-size: 1.2rem;
 }
 p {
+  font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
 }
 .form-placement {
@@ -65,11 +70,13 @@ form ul {
   list-style: none;
 }
 form li {
+  font-family: "namad", "Courier New", Courier, monospace;
   margin: 15px 0;
 }
 
 form input {
-  border-radius: 5px;
+  border-radius: 3px;
+  border: none;
   font-size: 1.1rem;
   padding: 3px;
   background-color: #e5d8d8;
@@ -83,7 +90,8 @@ input:focus {
 
 button {
   position: absolute;
-  top: 235px;
+  top: 215px;
+  left: 0px;
   font-weight: bold;
   color: #fff;
   border: none;
@@ -93,6 +101,7 @@ button {
   box-shadow: 1px 1px 3px 1px rgba(184, 71, 71, 0.5);
 }
 button:hover {
+  cursor: pointer;
   background: #bd4444;
 }
 button:active {
