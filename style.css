@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: "odin";
+  src: url(Norse-Bold.otf);
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #123456;
+  color: #fff;
+  display: flex;
+}
+.logo-holder {
+  margin: 15rem 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.left {
+  height: 100vh;
+  background-image: url(back-pic.jpg);
+  background-size: cover;
+  flex: 1;
+}
+.logo-img {
+  width: 5rem;
+}
+h1 {
+  font-family: "odin";
+  font-size: 5rem;
+}
+.right {
+  padding: 5rem 0 0 0;
+  flex: 1;
+}
+.quote-main {
+  padding: 3rem;
+  font-size: 1.2rem;
+}
+p {
+  font-weight: bold;
+}
+.form-placement {
+  background-color: #123444;
+  padding: 1rem 2rem 1rem 3rem;
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+form {
+  position: relative;
+  width: 500px;
+  display: flex;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  justify-content: space-between;
+}
+
+form ul {
+  list-style: none;
+}
+form li {
+  margin: 15px 0;
+}
+
+form input {
+  border-radius: 5px;
+  font-size: 1.1rem;
+  padding: 3px;
+  background-color: #e5d8d8;
+}
+input:focus {
+  outline-color: #0000ff;
+  outline-width: 1px;
+  outline-style: solid;
+  box-shadow: 2px 2px 5px 1px rgba(120, 60, 60, 0.5);
+}
+
+button {
+  position: absolute;
+  top: 235px;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  background-color: #70362c;
+  padding: 10px 30px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px 1px rgba(184, 71, 71, 0.5);
+}
+button:hover {
+  background: #bd4444;
+}
+button:active {
+  box-shadow: 0 0 10px 1px rgba(219, 177, 177, 0.5);
+}
+.quote-login {
+  margin: 5rem 0 0 3rem;
+}
+a {
+  text-decoration: none;
+  color: #b78989;
+}
+a:hover {
+  color: #ce9d9d;
+}
