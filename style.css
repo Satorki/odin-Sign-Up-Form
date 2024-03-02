@@ -30,7 +30,7 @@ body {
   height: 100vh;
   background-image: url(back-pic.jpg);
   background-size: cover;
-  flex: 1;
+  flex: 0 1 700px;
 }
 .logo-img {
   width: 5rem;
